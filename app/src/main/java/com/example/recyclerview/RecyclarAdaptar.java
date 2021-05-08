@@ -95,7 +95,13 @@ public class RecyclarAdaptar extends RecyclerView.Adapter {
 
         }
 
-        public class a{}
+        public class a{
+
+            int a ;
+            String qq;
+            Boolean aq = true;
+
+        }
 
         @Override
         public void onClick(View v) {
