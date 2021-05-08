@@ -95,6 +95,8 @@ public class RecyclarAdaptar extends RecyclerView.Adapter {
 
         }
 
+        public class a{}
+
         @Override
         public void onClick(View v) {
             Toast.makeText(binding.getRoot().getContext(), movieList.get(getAbsoluteAdapterPosition()), Toast.LENGTH_LONG).show();
